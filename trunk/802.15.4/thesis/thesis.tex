@@ -1,0 +1,327 @@
+%% History:
+% Pavel Tvrdik (26.12.2004)
+%  + initial version for PhD Report
+%
+% Daniel Sykora (27.01.2005)
+%
+% Michal Valenta (3.12.2008)
+% rada zmen ve formatovani (diky M. Duškovi, J. Holubovi a J. Žďárkovi)
+% sjednoceni zdrojoveho kodu pro anglickou, ceskou, bakalarskou a diplomovou praci
+
+\documentclass[12pt,twoside,a4paper]{book}   %two-page printing
+\usepackage[czech]{babel}
+\usepackage[T1]{fontenc} % pouzije EC fonty
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{multirow}
+%\usepackage{indentfirst} %1. odstavec jako v cestine.
+
+
+\usepackage{k336_thesis_macros} % specialni makra pro formatovani DP a BP
+ % muzete si vytvorit i sva vlastni v souboru k336_thesis_macros.sty
+ % najdete  radu jednoduchych definic, ktere zde ani nejsou pouzity
+ % napriklad: 
+ % \newcommand{\bfig}{\begin{figure}\begin{center}}
+ % \newcommand{\efig}{\end{center}\end{figure}}
+ % umoznuje pouzit prikaz \bfig namisto \begin{figure}\begin{center} atd.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Zvolte jednu z moznosti 
+% Choose one of the following options
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\TypeOfWork{Diplomová práca} \typeout{Diplomova prace}
+% \newcommand\TypeOfWork{Master's Thesis}   \typeout{Master's Thesis} 
+% \newcommand\TypeOfWork{Bakalářská práce}  \typeout{Bakalarska prace}
+% \newcommand\TypeOfWork{Bachelor's Project}  \typeout{Bachelor's Project}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Zvolte jednu z moznosti 
+% Choose one of the following options
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% nabidky jsou z: http://www.fel.cvut.cz/cz/education/bk/prehled.html
+
+%\newcommand\StudProgram{Elektrotechnika a informatika, dobíhající, Bakalářský}
+%\newcommand\StudProgram{Elektrotechnika a informatika, dobíhající, Magisterský}
+% \newcommand\StudProgram{Elektrotechnika a informatika, strukturovaný, Bakalářský}
+ \newcommand\StudProgram{Elektrotechnika a informatika, strukturovaný, Navazující magisterský}
+% \newcommand\StudProgram{Softwarové technologie a management, Bakalářský}
+% English study:
+% \newcommand\StudProgram{Electrical Engineering and Information Technology}  % bachelor programe
+% \newcommand\StudProgram{Electrical Engineering and Information Technology}  %master program
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Zvolte jednu z moznosti 
+% Choose one of the following options
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% nabidky jsou z: http://www.fel.cvut.cz/cz/education/bk/prehled.html
+
+%\newcommand\StudBranch{Výpočetní technika}   % pro program EaI bak. (dobihajici i strukt.)
+\newcommand\StudBranch{Výpočetní technika}   % pro prgoram EaI mag. (dobihajici i strukt.)
+%\newcommand\StudBranch{Softwarové inženýrství}            %pro STM
+%\newcommand\StudBranch{Web a multimedia}                  % pro STM
+%\newcommand\StudBranch{Computer Engineering}              % bachelor programe
+%\newcommand\StudBranch{Computer Science and Engineering}  % master programe
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Vyplnte nazev prace, autora a vedouciho
+% Set up Work Title, Author and Supervisor
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand\WorkTitle{Model siete ZigBee}
+\newcommand\FirstandFamilyName{Bc. Bernard Halás}
+\newcommand\Supervisor{doc. Ing. Jan Janeček, CSc}
+
+
+% Pouzijete-li pdflatex, tak je prijemne, kdyz bude mit vase prace
+% funkcni odkazy i v pdf formatu
+\usepackage[
+pdftitle={\WorkTitle},
+pdfauthor={\FirstandFamilyName},
+bookmarks=true,
+colorlinks=true,
+breaklinks=true,
+urlcolor=red,
+citecolor=blue,
+linkcolor=blue,
+unicode=true,
+]
+{hyperref}
+
+
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Zvolte jednu z moznosti 
+% Choose one of the following options
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\selectlanguage{english} 
+
+% prikaz \typeout vypise vyse uvedena nastaveni v prikazovem okne
+% pro pohodlne ladeni prace
+
+
+
+\typeout{************************************************}
+\typeout{Zvoleny jazyk: cestina}
+\typeout{Typ prace: \TypeOfWork}
+\typeout{Studijni program: \StudProgram}
+\typeout{Obor: \StudBranch}
+\typeout{Jmeno: \FirstandFamilyName}
+\typeout{Nazev prace: \WorkTitle}
+\typeout{Vedouci prace: \Supervisor}
+\typeout{***************************************************}
+\newcommand\Department{Katedra počítačů}
+\newcommand\Faculty{Fakulta elektrotechnická}
+\newcommand\University{České vysoké učení technické v Praze}
+\newcommand\labelSupervisor{Vedúci práce}
+\newcommand\labelStudProgram{Študíjny program}
+\newcommand\labelStudBranch{Obor}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%    Poznamky ke kompletaci prace
+% Nasledujici pasaz uzavrenou v {} ve sve praci samozrejme 
+% zakomentujte nebo odstrante. 
+% Ve vysledne svazane praci bude nahrazena skutecnym 
+% oficialnim zadanim vasi prace.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%    Titulni stranka / Title page 
+
+\coverpagestarts
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%    Podekovani / Acknowledgements 
+
+\acknowledgements
+\noindent
+Rád by som sa poďakoval pánu Janečkovi za konzultácie, pripomienky a návrhy, ktoré mi ochotne poskytol počas vypracovávania tejto práce. Takisto vďaka patrí aj mojej rodine za podporu počas celého obdobia môjho štúdia.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%   Prohlaseni / Declaration 
+
+\declaration{V Prahe dňa 21.\,5.\,2009}
+%\declaration{In Kořenovice nad Bečvárkou on May 15, 2008}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%    Abstract 
+ 
+\abstractpage
+
+This work describes a design of a LR-WPAN network model based on the ZigBee standard using OMNeT++, a popular discrete-event simulating engine. The text covers and evaluates the possibilities given by the addons for wireless and mobile networks modelling. The aim is to present one of many approaches based on the exact translation of the internal processes defined by the standards into the thorough structure of the model. This offers a clear view inside the model and sets a solid starting point for the future work on the product.
+
+% Prace v cestine musi krome abstraktu v anglictine obsahovat i
+% abstrakt v cestine.
+\vglue60mm
+
+\noindent{\Huge \textbf{Abstrakt}}
+\vspace{8ex}
+
+\noindent
+Táto práca pojednáva o príprave modelu LR-WPAN siete postavenej na štandarde Zig\-Bee v populárnom simulačnom nástroji OMNeT++. Spracováva a vyhodnocuje možnosti ponúkané doplnkovými rozšíreniami k danému simulátoru pre modelovanie bezdrôtových a mobilných sietí. Práca si dáva za cieľ ponúknuť jeden z možných prístupov založený na presnom premietnutí procesov definovaných v špecifikácii aj do vnútornej štruktúry produktu, čím sa snaží o prehľadnosť a o poskytnutie solídneho odrazového bodu pre prípadné rozširovanie, alebo aktualizáciu modelu.
+
+\noindent
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Obsah / Table of Contents 
+
+\tableofcontents
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Seznam obrazku / List of Figures 
+
+\listoffigures
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Seznam tabulek / List of Tables
+
+\listoftables
+
+
+%**************************************************************
+
+\mainbodystarts
+% horizontalní mezera mezi dvema odstavci
+%\parskip=5pt
+%JZ 11.12.2008 parskip bez tolerance? To neni rozumne, myslel jsem, ze sazime v TeXu, ne ve Wordu!
+\parskip=5pt plus 4pt minus 4pt
+% odstazeni prvniho radku odstavce (neaplikuje se na prvni odstace 
+% kapitol, sekci, podsekci atd.)
+%\parindent=10pt
+%JZ 11.12.2008 -- indent v zavislosti na base font, proc 10pt?
+\parindent=1.5em
+% pokud chcete selektivne zamezit odsazeni 1. radku nektereho odstavce
+% pouzijte prikaz \noindent.
+
+%**************************************************************
+
+% Pro snadnejsi praci s vetsimi texty je rozumne tyto rozdelit
+% do samostatnych souboru nejlepe dle kapitol a tyto potom vkladat
+% pomoci prikazu \include{jmeno_souboru.tex} nebo \include{jmeno_souboru}.
+% Napr.:
+% \include{1_uvod}
+% \include{2_teorie}
+% atd...
+
+%*****************************************************************************
+\cleardoublepage\include{ch_1_introduction}
+
+\cleardoublepage\include{ch_2_goals}
+
+\cleardoublepage\include{ch_3_zigbee}
+
+\cleardoublepage\include{ch_4_variants}
+
+\cleardoublepage\include{ch_5_model}
+
+\cleardoublepage\include{ch_6_functionality}
+
+\cleardoublepage\include{ch_7_conclusion}
+
+%*****************************************************************************
+% Seznam literatury je v samostatnem souboru reference.bib. Ten
+% upravte dle vlastnich potreb, potom zpracujte (a do textu
+% zapracujte) pomoci prikazu bibtex a nasledne pdflatex (nebo
+% latex). Druhy z nich alespon 2x, aby se poresily odkazy.
+
+\bibliographystyle{abbrv}
+%bibliographystyle{plain}
+%\bibliographystyle{psc}
+{
+%JZ: 11.12.2008 (Nekdo chce mit v techto ukazkovych odkazech take odkaz 
+%JZ: na CSTeX, tak at to k necemu vypada...)
+\def\CS{$\cal C\kern-0.1667em\lower.5ex\hbox{$\cal S$}\kern-0.075em $}
+\bibliography{reference}
+}
+
+% M. Dušek radi:
+%\bibliographystyle{alpha}
+% kdy citace ma tvar [AutorRok] (napriklad [Cook97]). Sice to asi neni  podle ceske normy (BTW BibTeX stejne neodpovida ceske norme), ale je to nejprehlednejsi.
+
+%*****************************************************************************
+
+\appendix
+
+\cleardoublepage\chapter{Zoznam použitých skratiek}
+
+\begin{description}
+\item[ACK] Acknownledgment
+\item[APDU] Application level Protocol Data Unit
+\item[APP] Application
+\item[APS] Application Support Sublayer
+\item[APSDE] Application Support Sublayer Data Entity
+\item[APSME] Application Support Sublayer Management Entity
+\item[CSMA-CA] Carrier Sense Multiple Access - Collision Avoidance
+\item[DHCP] Dynamic Host Configuration Protocol
+\item[ED] Energy Detection
+\item[FCS] Frame Check Sequence
+\item[FEC] Forward Error Correction
+\item[FFD] Full Functionality Device
+\item[GTS] Guaranteed Time Slot
+\item[GUI] Graphical User Interface
+\item[IDE] Integrated Development Environment
+\item[IEEE] Institute of Electrical and Electronics Engineers
+\item[IETF] Internet Engineering Task Force
+\item[IP] Internet Protocol
+\item[ISM] Industrial Scientific and Medical
+\item[LLC] Logical Link Control
+\item[LR-WPAN] Low-Rate Wireless Personal Area Network
+\item[MAC] Medium Access Control
+\item[MAC-PIB] Medium Access Control layer Protocol Information Base
+\item[MCPS] MAC Common Part Sublayer
+\item[MF] Mobility Framework
+\item[MHz] Megahertz
+\item[MIMO] Multiple In, Multiple Out
+\item[MLME] MAC Sublayer Management Entity
+\item[MSB] Most Significant Bit
+\item[NET] Network
+\item[NLDE] Network Layer Data Entity
+\item[NLME] Network Layer Management Entity
+\item[NPDU] Network level Protocol Data Unit
+\item[NWK] Network
+\item[NWK-PIB] Network layer Protocol Information Base
+\item[OEM] Original Equipment Manufacturer
+\item[OFDM] Orthogonal Frequency Division Multiplexing
+\item[PAN] Personal Area Network
+\item[PD] PHY Data
+\item[PDA] Personal Digital Assistent
+\item[PDU] Protocol Data Unit
+\item[RFD] Reduced Functionality Device
+\item[PHY] Physical
+\item[PLME] PHY Layer Management Entity
+\item[RSSI] Received Signal Strength Indication
+\item[SAP] Service Access Point
+\item[SAT] Signal Attenuation Threshold
+\item[SFD] Starting Frame Delimiter
+\item[SINR] Signal to Interference plus Noise Ratio
+\item[SNR] Signal to Noise Ratio
+\item[SSCS] Sublayer-Specific Convergence Sublayer
+\item[TCP] Transmission Control Protocol
+\item[UWB] Ultra-Wideband
+\item[Wi-Fi] Wireless Fidelity
+\item[WPAN] Wireless Personal Area Network
+\item[WSN] Wireless Sensor Network
+\item[ZDO] ZigBee Device Object
+\end{description}
+
+%*****************************************************************************
+%\chapter{UML diagramy}
+
+
+%*****************************************************************************
+\chapter{Obsah priloženého CD}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=140mm]{figures/cd_content}
+\caption{Obsah priloženého CD}
+\label{fig:cd_content}
+\end{center}
+\end{figure}
+\end{document}

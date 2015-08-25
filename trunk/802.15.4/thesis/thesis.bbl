@@ -1,0 +1,68 @@
+\begin{thebibliography}{10}
+
+\bibitem{forster08}
+{A. Foerster, A. L. Murphy}.
+\newblock Balancing energy expenditure in {WSNs} through reinforcement
+  learning: {A} study.
+\newblock 2008.
+
+\bibitem{miximvision08}
+{A. Köpke, M. Swigulski, K. Wessel, D. Willkomm}.
+\newblock Simulating wireless and mobile networks in {OMNeT++ --- The MiXiM
+  Vision}.
+\newblock 2008.
+
+\bibitem{bonnmotion_report}
+{C. de Waal}.
+\newblock Bonnmotion: {A} mobility scenario generation and analysis tool, 2002.
+
+\bibitem{massmobility99}
+{C. E. Perkins, K. Wang}.
+\newblock Optimized smooth handoffs in mobile {IP}.
+\newblock In {\em In Proceedings of ISCC}, pages 340--346, 1999.
+
+\bibitem{ansim_report}
+{H. Hellbrück, S. Fischer}.
+\newblock Basic analysis and simulation of ad-hoc networks, 2001.
+
+\bibitem{halas03}
+B.~Halás.
+\newblock {Návrh simulácie bezdrôtovej siete ZigBee 802.15.4 pomocou
+  simulačného systému OMNeT++}, 2003.
+\newblock In Slovak.
+
+\bibitem{ieee03}
+{IEEE Computer Society}.
+\newblock {IEEE} 802.15.4: Wireless medium access control and physical layer
+  specifications for low-rate wireless personal area networks, Oct 2003.
+
+\bibitem{ieee06}
+{IEEE Computer Society}.
+\newblock {IEEE} 802.15.4b: Wireless medium access control and physical layer
+  specifications for low-rate wireless personal area networks, Sep 2006.
+
+\bibitem{rfc_4919}
+{IETF 6LoWPAN Taskgroup}.
+\newblock {IPv6 over Low-Power Wireless Personal Area Networks (6LoWPANs):
+  Overview, Assumptions, Problem Statement, and Goals}, 2007.
+\newblock {RFC4919}.
+
+\bibitem{rfc_4944}
+{IETF 6LoWPAN Taskgroup}.
+\newblock {Transmission of IPv6 Packets over IEEE 802.15.4 Networks}, 2007.
+\newblock {RFC 4944}.
+
+\bibitem{pawis05}
+{S. Mahlknecht, J. Glaser, T. Herndl}.
+\newblock {PAWiS}: Towards a power aware system architecture for a {SoC/SiP}
+  wireless sensor and actor node implementation, 2005.
+
+\bibitem{mf03}
+{W. Drytkiewicz, S. Sroka, V. Handziski, A. Köpke, H. Karl}.
+\newblock Mobility {Framework} for {OMNeT++}, 2003.
+
+\bibitem{zigbee08}
+{ZigBee Alliance, Inc.}
+\newblock Zigbee specification, Jan 2008.
+
+\end{thebibliography}

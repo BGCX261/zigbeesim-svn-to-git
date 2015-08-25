@@ -1,0 +1,998 @@
+This is pdfTeX, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2008.12.4)  22 MAY 2009 07:03
+entering extended mode
+**thesis.tex
+(./thesis.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+(/usr/share/texmf/tex/latex/base/book.cls
+Document Class: book 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/bk12.clo
+File: bk12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/generic/babel/babel.sty
+Package: babel 2005/11/23 v3.8h The Babel package
+
+(/usr/share/texmf/tex/generic/babel/czech.ldf
+Language: czech 2005/03/29 v1.3k Czech support from the babel system
+
+(/usr/share/texmf/tex/generic/babel/babel.def
+File: babel.def 2005/11/23 v3.8h Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)))
+(/usr/share/texmf/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texmf/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/share/texmf/tex/latex/base/inputenc.sty
+Package: inputenc 2006/05/05 v1.1b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2006/03/30 v1.1i UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encodingT1
+
+(/usr/share/texmf/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encodingOT1
+
+(/usr/share/texmf/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encodingOMS
+
+(/usr/share/texmf/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/lib/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texmf/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen106
+) (./k336_thesis_macros.sty)
+Diplomova prace
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2007/02/07 v6.75r Hypertext links for LaTeX
+\@linkdim=\dimen107
+\Hy@linkcounter=\count90
+\Hy@pagecounter=\count91
+
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2007/02/07 v6.75r Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/lib/texmf/tex/latex/config/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
+HO)
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 2238.
+Package hyperref Info: Option `colorlinks' set `true' on input line 2238.
+Package hyperref Info: Option `breaklinks' set `true' on input line 2238.
+Package hyperref Info: Option `unicode' set `true' on input line 2238.
+
+(/usr/share/texmf/tex/latex/hyperref/puenc.def
+File: puenc.def 2007/02/07 v6.75r Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 2288.
+Package hyperref Info: Link nesting OFF on input line 2293.
+Package hyperref Info: Hyper index ON on input line 2296.
+Package hyperref Info: Plain pages OFF on input line 2303.
+Package hyperref Info: Backreferencing OFF on input line 2308.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2444.
+(/usr/share/texmf/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 2599.
+\Fld@menulength=\count92
+\Field@Width=\dimen108
+\Fld@charsize=\dimen109
+\Choice@toks=\toks17
+\Field@toks=\toks18
+Package hyperref Info: Hyper figures OFF on input line 3102.
+Package hyperref Info: Link nesting OFF on input line 3107.
+Package hyperref Info: Hyper index ON on input line 3110.
+Package hyperref Info: backreferencing OFF on input line 3117.
+Package hyperref Info: Link coloring ON on input line 3120.
+\Hy@abspage=\count93
+\c@Item=\count94
+\c@Hfootnote=\count95
+)
+*hyperref using default driver hpdftex*
+(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2007/02/07 v6.75r Hyperref driver for pdfTeX
+\Fld@listcount=\count96
+) (./thesis.aux
+(./ch_1_introduction.aux) (./ch_2_goals.aux) (./ch_3_zigbee.aux)
+(./ch_4_variants.aux) (./ch_5_model.aux) (./ch_6_functionality.aux)
+(./ch_7_conclusion.aux))
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+ (/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/lib/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+Package hyperref Info: Link coloring ON on input line 97.
+
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
+
+(/usr/share/texmf/tex/latex/oberdiek/refcount.sty
+Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
+)
+\c@section@level=\count97
+)
+LaTeX Info: Redefining \ref on input line 97.
+LaTeX Info: Redefining \pageref on input line 97.
+ (./thesis.out)
+(./thesis.out)
+\@outlinefile=\write3
+\openout3 = `thesis.out'.
+
+
+************************************************
+Zvoleny jazyk: cestina
+Typ prace: Diplomov\IeC {\'a} pr\IeC {\'a}ca
+Studijni program: Elektrotechnika a informatika, strukturovan\IeC {\'y}, Navazu
+j\IeC {\'\i }c\IeC {\'\i } magistersk\IeC {\'y}
+Obor: V\IeC {\'y}po\IeC {\v c}etn\IeC {\'\i } technika
+Jmeno: Bc. Bernard Hal\IeC {\'a}s
+Nazev prace: Model siete ZigBee
+Vedouci prace: doc. Ing. Jan Jane\IeC {\v c}ek, CSc
+***************************************************
+<figures/LogoCVUT.pdf, id=219, 93.34875pt x 70.2625pt>
+File: figures/LogoCVUT.pdf Graphic file (type pdf)
+
+<use figures/LogoCVUT.pdf> [3
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/LogoCVUT.pdf>] [
+4
+
+] [5] [6
+
+]
+Overfull \hbox (0.32956pt too wide) in paragraph at lines 150--152
+\T1/cmr/m/n/12 Nemám zá-vaºný dô-vod proti uºi-tiu tohto ²kol-ského diela v zmy
+sle Ÿ60 Zá-kona £. 121/2000
+ []
+
+[7] [8
+
+] [9
+
+] [10
+
+] (./thesis.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+ [11])
+\tf@toc=\write4
+\openout4 = `thesis.toc'.
+
+ [12] (./thesis.lof
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 16.
+
+(/usr/share/texmf/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+) [13
+
+])
+\tf@lof=\write5
+\openout5 = `thesis.lof'.
+
+ [14] (./thesis.lot)
+\tf@lot=\write6
+\openout6 = `thesis.lot'.
+
+ [15
+
+]
+[16
+
+]
+\openout2 = `ch_1_introduction.aux'.
+
+ (./ch_1_introduction.tex
+Kapitola 1.
+) [1
+
+
+
+] [2
+
+
+]
+\openout2 = `ch_2_goals.aux'.
+
+ (./ch_2_goals.tex
+Kapitola 2.
+[3
+
+
+] [4]) [5] [6
+
+
+]
+\openout2 = `ch_3_zigbee.aux'.
+
+ (./ch_3_zigbee.tex
+Kapitola 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
+(/usr/share/texmf/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+ [7
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
+
+ []
+
+<figures/topology_star.pdf, id=471, 409.53pt x 481.8pt>
+File: figures/topology_star.pdf Graphic file (type pdf)
+
+<use figures/topology_star.pdf>
+<figures/topology_p2p.pdf, id=473, 409.53pt x 481.8pt>
+File: figures/topology_p2p.pdf Graphic file (type pdf)
+
+<use figures/topology_p2p.pdf>
+<figures/topology_cluster.pdf, id=475, 477.785pt x 521.95pt>
+File: figures/topology_cluster.pdf Graphic file (type pdf)
+
+<use figures/topology_cluster.pdf> [8] [9 <./figures/topology_star.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/topology_star.pdf): PDF inclu
+sion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>] [10 <./figures/topology_p2p.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/topology_p2p.pdf): PDF inclus
+ion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>] <figures/channel_page.pdf, id=509, 409.53pt x 120.45pt>
+File: figures/channel_page.pdf Graphic file (type pdf)
+
+<use figures/channel_page.pdf>
+Overfull \hbox (4.66406pt too wide) in paragraph at lines 87--114
+ [] 
+ []
+
+[11 <./figures/topology_cluster.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/topology_cluster.pdf): PDF in
+clusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+[13 <./figures/channel_page.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/channel_page.pdf): PDF inclus
+ion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 130--133
+
+ []
+
+<figures/superframe.pdf, id=547, 477.785pt x 216.81pt>
+File: figures/superframe.pdf Graphic file (type pdf)
+
+<use figures/superframe.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+[15 <./figures/superframe.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/superframe.pdf): PDF inclusio
+n: Page Group detected which pdfTeX can't handle. Ignoring it.
+>] <figures/zigbee_ieee.pdf, id=571, 409.53pt x 248.93pt>
+File: figures/zigbee_ieee.pdf Graphic file (type pdf)
+
+<use figures/zigbee_ieee.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 152--161
+
+ []
+
+<figures/architecture_zigbee.pdf, id=574, 477.785pt x 449.68pt>
+File: figures/architecture_zigbee.pdf Graphic file (type pdf)
+
+<use figures/architecture_zigbee.pdf> [16]
+Overfull \hbox (0.95152pt too wide) in paragraph at lines 171--172
+[]\T1/cmr/m/n/12 Poºiadavky na sie-´ovú vrstvu sú za-bez-pe-£o-va-nie správ-neh
+o fun-go-va-nia lin-ko-vej vrstvy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+[17 <./figures/zigbee_ieee.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/zigbee_ieee.pdf): PDF inclusi
+on: Page Group detected which pdfTeX can't handle. Ignoring it.
+>] [18 <./figures/architecture_zigbee.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/architecture_zigbee.pdf): PDF
+ inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+<figures/architecture_sublayers.pdf, id=617, 409.53pt x 401.5pt>
+File: figures/architecture_sublayers.pdf Graphic file (type pdf)
+
+<use figures/architecture_sublayers.pdf>) [19] [20 <./figures/architecture_subl
+ayers.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/architecture_sublayers.pdf): 
+PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>]
+\openout2 = `ch_4_variants.aux'.
+
+ (./ch_4_variants.tex
+Kapitola 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+[21
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+[22] <figures/architecture_mixim.pdf, id=651, 477.785pt x 521.95pt>
+File: figures/architecture_mixim.pdf Graphic file (type pdf)
+
+<use figures/architecture_mixim.pdf>
+Overfull \hbox (3.89796pt too wide) in paragraph at lines 30--39
+ \T1/cmr/bx/n/12 Base-Phy-La-yer[] \T1/cmr/m/n/12 Je £isto OMNeT++ mo-dul. Ko-m
+u-ni-kuje s vy²-²ími vrst-vami cez správy,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+[23] [24 <./figures/architecture_mixim.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/architecture_mixim.pdf): PDF 
+inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+<figures/channelcontrol_areas.pdf, id=679, 409.53pt x 457.71pt>
+File: figures/channelcontrol_areas.pdf Graphic file (type pdf)
+
+<use figures/channelcontrol_areas.pdf> [25]
+<figures/topology_mobility.pdf, id=687, 409.53pt x 361.35pt>
+File: figures/topology_mobility.pdf Graphic file (type pdf)
+
+<use figures/topology_mobility.pdf> [26 <./figures/channelcontrol_areas.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/channelcontrol_areas.pdf): PD
+F inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
+
+ []
+
+[27 <./figures/topology_mobility.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/topology_mobility.pdf): PDF i
+nclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Overfull \hbox (2.58206pt too wide) in paragraph at lines 73--74
+ \T1/cmr/bx/n/12 Mi-XiM[] \T1/cmr/m/n/12 Aj v si-mu-lá-tore Mi-XiM je pri-pra-v
+ená im-ple-men-tá-cia ²tan-dardu IEEE 802.15.4.
+ []
+
+[28]) [29] [30
+
+
+]
+\openout2 = `ch_5_model.aux'.
+
+ (./ch_5_model.tex
+Kapitola 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
+
+ []
+
+<figures/architecture_model.pdf, id=745, 409.53pt x 562.1pt>
+File: figures/architecture_model.pdf Graphic file (type pdf)
+
+<use figures/architecture_model.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 9--19
+
+ []
+
+[31
+
+
+] [32 <./figures/architecture_model.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/architecture_model.pdf): PDF 
+inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+<figures/topology_net.pdf, id=764, 409.53pt x 329.23pt>
+File: figures/topology_net.pdf Graphic file (type pdf)
+
+<use figures/topology_net.pdf> [33]
+<figures/architecture_net.pdf, id=769, 477.785pt x 457.71pt>
+File: figures/architecture_net.pdf Graphic file (type pdf)
+
+<use figures/architecture_net.pdf> [34 <./figures/topology_net.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/topology_net.pdf): PDF inclus
+ion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>] [35] [36 <./figures/architecture_net.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/architecture_net.pdf): PDF in
+clusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>] <figures/topology_mac.pdf, id=802, 409.53pt x 329.23pt>
+File: figures/topology_mac.pdf Graphic file (type pdf)
+
+<use figures/topology_mac.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+<figures/frame_mac.pdf, id=805, 477.785pt x 96.36pt>
+File: figures/frame_mac.pdf Graphic file (type pdf)
+
+<use figures/frame_mac.pdf>
+<figures/interframe_spacing.pdf, id=806, 409.53pt x 240.9pt>
+File: figures/interframe_spacing.pdf Graphic file (type pdf)
+
+<use figures/interframe_spacing.pdf> [37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38 <./figures/topology_mac.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/topology_mac.pdf): PDF inclus
+ion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>] [39 <./figures/frame_mac.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/frame_mac.pdf): PDF inclusion
+: Page Group detected which pdfTeX can't handle. Ignoring it.
+> <./figures/interframe_spacing.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/interframe_spacing.pdf): PDF 
+inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
+
+ []
+
+[40] <figures/architecture_mac.pdf, id=869, 477.785pt x 457.71pt>
+File: figures/architecture_mac.pdf Graphic file (type pdf)
+
+<use figures/architecture_mac.pdf>
+<figures/topology_phy.pdf, id=871, 409.53pt x 281.05pt>
+File: figures/topology_phy.pdf Graphic file (type pdf)
+
+<use figures/topology_phy.pdf> [41 <./figures/architecture_mac.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/architecture_mac.pdf): PDF in
+clusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>] <figures/frame_phy.pdf, id=887, 477.785pt x 120.45pt>
+File: figures/frame_phy.pdf Graphic file (type pdf)
+
+<use figures/frame_phy.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+ []
+
+[42 <./figures/topology_phy.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/topology_phy.pdf): PDF inclus
+ion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>] <figures/architecture_phy.pdf, id=902, 477.785pt x 457.71pt>
+File: figures/architecture_phy.pdf Graphic file (type pdf)
+
+<use figures/architecture_phy.pdf> [43 <./figures/frame_phy.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/frame_phy.pdf): PDF inclusion
+: Page Group detected which pdfTeX can't handle. Ignoring it.
+>] [44 <./figures/architecture_phy.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/architecture_phy.pdf): PDF in
+clusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>] <figures/architecture_nic.pdf, id=941, 409.53pt x 618.31pt>
+File: figures/architecture_nic.pdf Graphic file (type pdf)
+
+<use figures/architecture_nic.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+[45] [46 <./figures/architecture_nic.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/architecture_nic.pdf): PDF in
+clusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 182--185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--185
+
+ []
+
+[47] <figures/ip_ieee.pdf, id=981, 409.53pt x 329.23pt>
+File: figures/ip_ieee.pdf Graphic file (type pdf)
+
+<use figures/ip_ieee.pdf>) [48] [49 <./figures/ip_ieee.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/ip_ieee.pdf): PDF inclusion: 
+Page Group detected which pdfTeX can't handle. Ignoring it.
+>] [50
+
+
+]
+\openout2 = `ch_6_functionality.aux'.
+
+ (./ch_6_functionality.tex
+Kapitola 6.
+<figures/screen_init.png, id=1007, 617.30624pt x 631.35875pt>
+File: figures/screen_init.png Graphic file (type png)
+
+<use figures/screen_init.png>
+<figures/screen_beacons.png, id=1008, 617.30624pt x 631.35875pt>
+File: figures/screen_beacons.png Graphic file (type png)
+
+<use figures/screen_beacons.png>
+<figures/chart_init.png, id=1014, 803.0pt x 1204.5pt>
+File: figures/chart_init.png Graphic file (type png)
+
+<use figures/chart_init.png>
+<figures/chart_beacon.png, id=1015, 803.0pt x 1204.5pt>
+File: figures/chart_beacon.png Graphic file (type png)
+
+<use figures/chart_beacon.png>
+<figures/chart_associate_request.png, id=1016, 803.0pt x 1204.5pt>
+File: figures/chart_associate_request.png Graphic file (type png)
+
+<use figures/chart_associate_request.png>
+<figures/chart_data_request.png, id=1017, 803.0pt x 1204.5pt>
+File: figures/chart_data_request.png Graphic file (type png)
+
+<use figures/chart_data_request.png>
+<figures/chart_associate_response.png, id=1018, 803.0pt x 1204.5pt>
+File: figures/chart_associate_response.png Graphic file (type png)
+
+<use figures/chart_associate_response.png>) [51
+
+
+ <./figures/screen_init.png>]
+[52 <./figures/screen_beacons.png>] [53] [54 <./figures/chart_init.png>]
+[55 <./figures/chart_beacon.png>] [56 <./figures/chart_associate_request.png>]
+[57 <./figures/chart_data_request.png>] [58 <./figures/chart_associate_response
+.png>]
+\openout2 = `ch_7_conclusion.aux'.
+
+ (./ch_7_conclusion.tex
+Kapitola 7.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 2--225
+
+ []
+
+[59
+
+
+
+
+] (./thesis.bbl [60
+
+
+]) [61] [62
+
+]
+Dodatok A.
+[63
+
+] [64] [65] [66
+
+]
+Dodatok B.
+<figures/cd_content.png, id=1093, 565.11125pt x 206.7725pt>
+File: figures/cd_content.png Graphic file (type png)
+
+<use figures/cd_content.png> [67 <./figures/cd_content.png>] (./thesis.aux
+(./ch_1_introduction.aux) (./ch_2_goals.aux) (./ch_3_zigbee.aux)
+(./ch_4_variants.aux) (./ch_5_model.aux) (./ch_6_functionality.aux)
+(./ch_7_conclusion.aux)) )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 19 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 4623 strings out of 94070
+ 60083 string characters out of 1165709
+ 124267 words of memory out of 3500000
+ 7552 multiletter control sequences out of 10000+50000
+ 17284 words of font info for 38 fonts, out of 1200000 for 2000
+ 649 hyphenation exceptions out of 8191
+ 25i,11n,41p,2509b,455s stack positions out of 5000i,500n,6000p,200000b,5000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</us
+r/share/texmf/fonts/type1/bluesky/cm/cmex10.pfb></usr/share/texmf/fonts/type1/b
+luesky/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi6.pfb></usr/s
+hare/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/blues
+ky/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/t
+exmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/c
+msy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfti1728.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sftt1200.pfb>
+Output written on thesis.pdf (81 pages, 1498081 bytes).
+PDF statistics:
+ 1220 PDF objects out of 1440 (max. 8388607)
+ 219 named destinations out of 1000 (max. 131072)
+ 601 words of extra memory for PDF output out of 10000 (max. 10000000)
+
